@@ -1,1 +1,37 @@
 This is my todo-list
+GIT BEFEHLSÜBERSICHT (KOMPLETT)
+
+1. PROJEKT-START & WORKFLOW
+---------------------------
+git init            -> Startet Git in einem neuen Ordner (erstellt .git Ordner).
+git status          -> Zeigt den Zustand (M = geändert, U = neu). Überblick behalten.
+git add .           -> Bereitet ALLE Dateien für das Speichern vor (Staging).
+git commit -m ""    -> Erstellt permanenten Speicherpunkt mit Nachricht in "".
+git log --oneline   -> Zeigt alle bisherigen Speicherpunkte als kompakte Liste an.
+
+2. STATUS-SYMBOLE (VS CODE)
+---------------------------
+U (Untracked)       -> Neue Datei. Git kennt sie noch nicht (muss add + commit).
+M (Modified)        -> Bekannte Datei wurde verändert, aber noch nicht gespeichert.
+
+3. KORREKTUREN & ZEITREISE
+--------------------------
+git restore <file>  -> Löscht ungespeicherte Fehler in EINER Datei (vor Commit).
+git reset --hard    -> Radikal-Löschung: Setzt ALLES auf den letzten Commit-Stand.
+git commit --amend  -> Ändert nachträglich die Nachricht des allerletzten Commits.
+q                   -> Beendet die Log-Ansicht oder andere Listen im Terminal.
+cls                 -> Leert das Terminal-Fenster für eine saubere Ansicht.
+
+4. BRANCHES (PARALLELWELTEN)
+----------------------------
+git branch          -> Listet alle Welten (Branches) auf. Zeigt, wo man steht.
+git checkout -b <x> -> Erstellt neue Welt <x> und springt sofort hinein.
+git checkout <x>    -> Wechselt zwischen Welten (z.B. von test-idee zu main).
+git merge <x>       -> Holt die Änderungen aus Welt <x> in die aktuelle Welt.
+
+5. TERMINAL, ORDNER & DATEIEN
+-----------------------------
+mkdir <name>        -> Erstellt einen neuen Ordner (Make Directory).
+ni <dateiname>      -> Erstellt eine neue, leere Datei (Windows PowerShell).
+ls                  -> Listet alle Dateien und Ordner im Verzeichnis auf.
+rm <dateiname>      -> Löscht eine Datei permanent aus dem Ordner.
