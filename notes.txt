@@ -33,5 +33,5 @@ git merge <x>       -> Holt die Änderungen aus Welt <x> in die aktuelle Welt.
 -----------------------------
 mkdir <name>        -> Erstellt einen neuen Ordner (Make Directory).
 ni <dateiname>      -> Erstellt eine neue, leere Datei (Windows PowerShell).
-ls                  -> Listet alle Dateien und Ordner im Verzeichnis auf.
+ls/dir                  -> Listet alle Dateien und Ordner im Verzeichnis auf.
 rm <dateiname>      -> Löscht eine Datei permanent aus dem Ordner.
