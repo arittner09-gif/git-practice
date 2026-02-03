@@ -1,2 +1,12 @@
+# Windows System-Dateien (Müll)
+Thumbs.db
 desktop.ini
+
+# VS Code spezifisch
+.vscode/
+*.code-workspace
+
+# Temporäre Dateien (z.B. von Word oder Editoren)
+~$*
+*.tmp
 *.log

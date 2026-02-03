@@ -1,5 +1,3 @@
-🚀 Git & Terminal Master List (Windows / PowerShell)
-
 Project Setup & Git Initialization
 Command	Detailed Explanation
 
