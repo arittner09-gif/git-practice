@@ -1,16 +1,15 @@
-# Arbeitsmodus: Plain Web Development
+# Project Architecture
+- Type: Classic Web App (HTML5, CSS3, Modern JavaScript)
+- NO TypeScript, NO Frameworks (React, Vue, etc.)
+- Tech Stack: Clean, semantic HTML and modern, responsive CSS.
 
-## Kontext
-- Projekt-Typ: Klassische Web-App (HTML5, CSS3, Modern JavaScript)
-- KEIN TypeScript, KEINE Frameworks wie React oder Vue (außer ich frage explizit).
-- Die KI hat vollen Zugriff auf den Datei-Index (@codebase).
+# Coding Standards
+1. **Language:** Respond in **English**. Use clear, professional technical terms.
+2. **HTML:** Use semantic tags (like <header>, <main>, <section>) instead of just <div>. Ensure all inputs have matching <label> tags.
+3. **CSS:** Use Flexbox or Grid for layouts. Keep it modern and clean. No old-school float layouts.
+4. **JavaScript:** Functional, clean Vanilla JS.
+5. **Logic:** Explain the "Why" behind the code in 2-3 sentences to help me learn.
+6. **No Duplicates:** Check @codebase before proposing new functions.
 
-## Verhaltensregeln
-1. **Code-Stil:** Schreibe funktionales, sauberes JavaScript, das direkt im Browser läuft.
-2. **Erklärungen:** Wenn du Code änderst, erkläre in 2-3 Sätzen, WARUM du diese Lösung gewählt hast. Das hilft mir beim Lernen.
-3. **Dateimanagement:** Bevor du eine neue Funktion vorschlägst, prüfe per @codebase, ob wir bereits eine ähnliche Logik in der `app.js` haben. Keine Duplikate!
-4. **Deutsch:** Antworte immer auf Deutsch und kommentiere den Code sparsam, aber präzise.
-
-## Spezifische Anweisungen für die "Form"
-- Ich plane gerade eine neue Form (Formular). 
-- Achte darauf, dass die IDs im HTML exakt mit den `document.getElementById` Aufrufen im JavaScript übereinstimmen.
+# Specific Goal
+- I am building a new Form. Ensure HTML IDs strictly match JavaScript `getElementById` calls.
