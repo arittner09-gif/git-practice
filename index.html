@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <!-- Character Encoding -->
     <meta charset="UTF-8">
+
+    <!-- Viewport Settings for Responsiveness -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the Document -->
     <title>Mein erstes Projekt</title>
+
+    <!-- External Stylesheet -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Additional Meta Tags for SEO and Social Sharing -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Gesichtssymmetrie-Rechner: KI-Analyse basierend auf dem Goldenen Schnitt. Teste deine Gesichtsproportionen online – schnell, präzise und datenschutzkonform.">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="favicon.ico">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Modernizr for Browser Compatibility -->
+    <script src="https://cdn.jsdelivr.net/npm/modernizr@3.12.1/dist/modernizr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_landmarker/face_landmarker.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
 </head>
 <body>
     <div class="box">
@@ -13,7 +32,7 @@
     </div>
     <div class="app-container">
         <h1>Golden Ratio Scanner</h1>
-        
+
         <div id="video-container">
             <video id="webcam" autoplay playsinline></video>
             <div class="overlay-grid"></div>
